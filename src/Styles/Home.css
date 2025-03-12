@@ -1,0 +1,103 @@
+#main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#greet-head{
+    font-family: roboto;
+    font-size: 48px;
+    margin: 50px 50px 0px 50px;
+    color: beige;
+}
+#typewriter-div{
+    font-size: 1.5rem;
+    height: 20px;
+    letter-spacing: 3px;
+    margin: 20px 0px 0px 50px;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+}
+#typewriter-head{
+    color: #fd7e14;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+#count-head,#contact-head{
+    font-family: "Roboto";
+    margin: 70px 0px 0px 50px;
+    text-align: center;
+    font-size: 40px;
+}
+#problem-div,#contact-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+}
+#problem-span,#contact-span{
+    text-align: center;
+    font-size: 50px !important;
+}
+#problem-span{
+    font-weight: bold;
+}
+#wrapper-div{
+    display: flex;
+    flex-direction: row;
+    width: 70vh;
+    gap: 20px;
+    margin-top: 30px;
+}
+#contact-div{
+    margin-left: 50px;
+}
+#contact-text,#problem-text{
+    font-size: 30px;
+}
+#left-div{
+    width: 50%;
+}
+#right-div{
+    width: 50%;
+}
+#photo{
+    height: 500px;
+}
+#typewriter-letter{
+    font-family: "Roboto";
+    font-weight: 100;
+    color: #fd7e14;
+    margin-right: 10px;
+}
+#socials{
+    width: 100%;
+    background-color:rgb(196, 196, 196);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#social-div{
+    font-size: 60px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-link{
+    margin:0px 40px 20px 40px;
+    color:  #080015;
+}
+.social-link:hover{
+    cursor: pointer !important;
+    color: #fd7e14 !important;
+}
+#social-para{
+    font-size: 34px;
+    text-align: center;
+}

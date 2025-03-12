@@ -1,0 +1,22 @@
+#footer-section{
+    background-color: rgb(219, 77, 0);
+    padding: 1px 0px 10px 20px;
+}
+#footer-btn{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #060011;
+    color: #060011;
+    font-weight: 600;
+}
+.underline{
+    color: #060011;
+    font-weight: 600;
+}
+.bg-blue-500{
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    color: #060011;
+    font-weight: 500;
+}
