@@ -1,0 +1,109 @@
+#vector-img{
+    height: 400px;
+    margin-top: 10px;
+}
+#main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#left-div{
+    width: 50%;
+    margin-left: 50px;
+}
+#right-div{
+    width: 50%;
+}
+.coding-icon {
+    font-size: 60px;
+}
+
+#coding-div h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#coding-icons-div {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ensures proper centering */
+}
+
+#coding-icons-div a {
+    color: beige;
+    text-decoration: none;
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column; /* Stack icon and label vertically */
+    align-items: center; /* Center both elements */
+}
+
+#coding-icons-div a:hover {
+    cursor: pointer;
+    color: rgb(219, 77, 0);
+}
+
+.coding-label {
+    margin-top: 5px; /* Adds space between icon and label */
+    font-size: 16px;
+    text-align: center;
+}
+
+#skills-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 18px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 2px solid rgb(219, 77, 0); 
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background-color: #060011;
+    height: 100px;
+    width: 280px;
+}
+
+.skills-icon {
+    font-size: 70px;
+    transition: color 0.3s ease-in-out;
+    color: beige;
+    width: 100%;
+}
+
+.skills-label {
+    margin-top: 5px; /* Adds space between icon and label */
+    font-size: 18px;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+    color: beige;
+    text-decoration: none !important;
+}
+
+/* Hover Effect */
+.skill-card:hover {
+    border: 2px solid rgb(219, 77, 0); /* Border appears */
+    background: rgba(219, 77, 0, 0.1); /* Slight transparent background */
+    cursor: pointer;
+}
+
+.skill-card:hover .skill-icon,
+.skill-card:hover .skill-label {
+    color: rgb(219, 77, 0); /* Icon and label change color */
+}
+#skills-main-div h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.skill-card a{
+    text-decoration: none;
+}

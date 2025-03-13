@@ -8,13 +8,11 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
-import Background from "./Components/Background";  // Import Background Component
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Background /> {/* 🔹 This adds the background effect */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

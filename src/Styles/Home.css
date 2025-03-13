@@ -15,7 +15,7 @@
     letter-spacing: 3px;
     margin: 20px 0px 0px 50px;
     white-space: nowrap;
-    width: 100%;
+    width: 90%;
     display: flex;
 }
 #typewriter-head{
@@ -59,10 +59,11 @@
     font-size: 30px;
 }
 #left-div{
-    width: 50%;
+    width: 60% !important;
+    margin-right: 20px;
 }
 #right-div{
-    width: 50%;
+    width: 40% !important;
 }
 #photo{
     height: 500px;
