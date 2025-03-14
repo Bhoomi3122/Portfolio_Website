@@ -10,7 +10,7 @@
     display: flex;
     list-style-type: none;
     gap: 70px;
-    color: beige;
+    color: rgb(204, 204, 204);
 }
 #navbar-links li{
     position: relative;

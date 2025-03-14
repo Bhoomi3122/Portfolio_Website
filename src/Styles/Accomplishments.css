@@ -1,0 +1,110 @@
+.accomplishments-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.accomplishments-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+    color: rgb(196, 196, 196);
+    border-bottom: 2px solid rgb(196, 196, 196);
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: Merriweather, serif;
+    font-weight: 400;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central-line {
+    margin-top: -2%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 102.5%;
+    width: 3px;
+    background-color: rgb(196, 196, 196);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 90%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-line {
+    position: absolute;
+    height: 2px;
+    background-color: rgb(196, 196, 196);
+    width: 20%;
+    top: 50%;
+}
+
+.timeline-item.left .horizontal-line {
+    left: 50%;
+}
+
+.timeline-item.right .horizontal-line {
+    right: 50%;
+}
+
+.timeline-content {
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    background-color: rgb(196, 196, 196);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    color: #060011;
+}
+
+.timeline-item.left .timeline-content {
+    margin-left: 60%;
+    z-index: 3;
+}
+
+.timeline-item.right .timeline-content {
+    margin-right: 60%;
+    z-index: 3;
+}
+
+.timeline-content h3 {
+    font-size: 1.1rem !important;
+    color: #060011;
+    margin-bottom: 1rem;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: bold;
+}
+
+.timeline-content p {
+    font-size: 1.1rem;
+    color: #060011;
+}
+
+.timeline-content .skills {
+    font-size: 1rem;
+    color: rgb(219, 77, 0) !important;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.timeline-item .timeline-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item .timeline-content .skills {
+    color: #1e3a8a;
+}

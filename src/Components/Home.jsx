@@ -53,24 +53,26 @@ const Home = () => {
           <img src={Photo} alt="Profile_Photo" id="photo" />
         </div>
       </div>
-      <div id="socials">
-        <div id="social-div">
+      <div id="social-div">
         <a href="mailto:gargbhoomi01@gmail.com" target="_blank" rel="noopener noreferrer"  className="social-link">
-          <FaEnvelope />
+          <FaEnvelope className="social-icon"/>
+          <span className="social-label">Email</span>
         </a>
         <a href="https://github.com/Bhoomi3122" target="_blank" rel="noopener noreferrer"  className="social-link">
-          <FaGithub />
+          <FaGithub className="social-icon"/>
+          <span className="social-label">Github</span>
         </a>
         <a href="https://www.linkedin.com/in/bhoomi-garg-244b52219" target="_blank" rel="noopener noreferrer"  className="social-link">
-          <FaLinkedin />
+          <FaLinkedin className="social-icon" />
+          <span className="social-label">LinkedIn</span>
         </a>
-        <a href="https://twitter.com/your_twitter" target="_blank" rel="noopener noreferrer"  className="social-link">
-          <FaTwitter />
+        <a href="https://x.com/GargBhoomi51130" target="_blank" rel="noopener noreferrer"  className="social-link">
+          <FaTwitter className="social-icon"/>
+          <span className="social-label">Twitter</span>
         </a>
 
          
         </div>
-      </div>
 
     </div>
   );

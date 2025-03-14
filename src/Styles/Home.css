@@ -7,7 +7,7 @@
     font-family: roboto;
     font-size: 48px;
     margin: 50px 50px 0px 50px;
-    color: beige;
+    color: rgb(204, 204, 204);
 }
 #typewriter-div{
     font-size: 1.5rem;
@@ -74,31 +74,27 @@
     color: #fd7e14;
     margin-right: 10px;
 }
-#socials{
-    width: 100%;
-    background-color:rgb(196, 196, 196);
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 #social-div{
-    font-size: 60px;
-    margin: 20px 0px 20px 0px;
-    display: flex;
+    background-color:rgb(196, 196, 196);
     align-items: center;
+    display: flex;
     justify-content: center;
 }
-.social-link{
-    margin:0px 40px 20px 40px;
-    color:  #080015;
+#social-div a{
+    text-decoration: none;
+    margin: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column; /* Stack icon and label vertically */
+    align-items: center;  
+    color: #060011;
 }
-.social-link:hover{
-    cursor: pointer !important;
-    color: #fd7e14 !important;
+#social-div a:hover{
+    cursor: pointer;
+    color: rgb(219, 77, 0) !important;
 }
-#social-para{
-    font-size: 34px;
-    text-align: center;
+.social-icon{
+    font-size: 70px;
+}
+.social-label{
+    font-size: 18px;
 }

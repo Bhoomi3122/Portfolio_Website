@@ -40,67 +40,67 @@ const About = () => {
         <h1 id="skills-head">Skills</h1>
         <div id="skills-div">
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaHtml5 className="skills-icon" />
               <span className="skills-label">HTML</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaCss3Alt className="skills-icon" />
               <span className="skills-label">CSS</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaJs className="skills-icon" />
               <span className="skills-label">JavaScript</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaBootstrap className="skills-icon" />
               <span className="skills-label">Bootstrap</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaReact className="skills-icon" />
               <span className="skills-label">React</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaNodeJs className="skills-icon" />
               <span className="skills-label">Node.js</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <SiExpress className="skills-icon" />
               <span className="skills-label">Express.js</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <SiMongodb className="skills-icon" />
               <span className="skills-label">MongoDB</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaCode className="skills-icon" />
               <span className="skills-label">DSA</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <MdComputer className="skills-icon" />
               <span className="skills-label">IoT</span>
             </a>
           </div>
           <div className="skill-card">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="/about">
               <FaNetworkWired className="skills-icon" />
               <span className="skills-label">Networking</span>
             </a>
@@ -119,7 +119,7 @@ const About = () => {
             <SiGeeksforgeeks className="coding-icon" style={{ cursor: "pointer" }} />
             <span className="coding-label">GeeksforGeeks</span>
           </a>
-          <a href="https://www.hackerrank.com/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.hackerrank.com/profile/gargbhoomi01" target="_blank" rel="noopener noreferrer">
             <SiHackerrank className="coding-icon" style={{ cursor: "pointer" }} />
             <span className="coding-label">HackerRank</span>
           </a>

@@ -29,7 +29,7 @@
 }
 
 #coding-icons-div a {
-    color: beige;
+    color: rgb(204, 204, 204);
     text-decoration: none;
     margin: 10px 30px 20px 30px;
     display: flex;
@@ -75,7 +75,7 @@
 .skills-icon {
     font-size: 70px;
     transition: color 0.3s ease-in-out;
-    color: beige;
+    color: rgb(212, 211, 211);
     width: 100%;
 }
 
@@ -84,7 +84,7 @@
     font-size: 18px;
     text-align: center;
     transition: color 0.3s ease-in-out;
-    color: beige;
+    color: rgb(212, 211, 211);
     text-decoration: none !important;
 }
 

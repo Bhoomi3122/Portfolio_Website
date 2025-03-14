@@ -1,0 +1,52 @@
+{
+    "achievements_certifications": [
+      {
+        "name": "Topper of My Branch",
+        "description": "I secured the highest academic rank in my branch with a CGPA of 8.95, maintaining excellent grades.",
+        "skills": "Strong academic performance, problem-solving, consistency"
+      },
+      {
+        "name": "Top 1% in NPTEL IIT Bombay Demystifying Networks Exam",
+        "description": "Ranked among the top 1% in a national-level networking exam conducted by IIT Bombay.",
+        "skills": "Computer networks, problem-solving, technical knowledge"
+      },
+      {
+        "name": "3rd Winner - 39th MPYSC Innovation Challenge",
+        "description": "Won 3rd place for developing a Smart Home Automation project at the MP Young Scientist Congress.",
+        "skills": "IoT, embedded systems, innovation, teamwork"
+      },
+      {
+        "name": "GeeksforGeeks Coding Challenge Winner",
+        "description": "Completed the GeeksforGeeks coding challenge and solved problems on a daily basis, improving problem-solving skills.",
+        "skills": "Competitive programming, consistency, data structures and algorithms"
+      },
+      {
+        "name": "CS50 Web Development Course Completion",
+        "description": "Completed Harvard’s CS50 Web Development course, gaining strong knowledge of full-stack development.",
+        "skills": "Web development, full-stack programming, problem-solving"
+      }
+    ],
+    "leadership_activities": [
+      {
+        "name": "Competitive Programming Student Coordinator",
+        "description": "Guided and motivated students in competitive programming by organizing practice sessions.",
+        "skills": "Leadership, mentoring, data structures and algorithms"
+      },
+      {
+        "name": "Student Coordinator - Innovation & DIY Club",
+        "description": "Guided and collaborated with students to learn and work on IoT projects, encouraging hands-on innovation.",
+        "skills": "IoT, embedded systems, project management, technical problem-solving"
+      },
+      {
+        "name": "Lead - GeeksforGeeks Student Chapter (MITS)",
+        "description": "Managed the student chapter, organized coding events, and helped students in learning DSA.",
+        "skills": "Leadership, event management, teaching, problem-solving"
+      },
+      {
+        "name": "Infosys Springboard Cohort 4 - Pragati Path to Future",
+        "description": "Completed an Infosys program focused on career growth, technical training, and soft skills development.",
+        "skills": "Soft skills, career development, technology fundamentals"
+      }
+    ]
+  }
+  

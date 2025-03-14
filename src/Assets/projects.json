@@ -1,0 +1,90 @@
+{
+    "projects": [
+      {
+        "title": "Sahayak - Community Support Platform",
+        "tech_stack": ["Node.js", "React", "MongoDB"],
+        "status": "In Progress",
+        "description": "Aims to enhance women’s safety by offering a platform where users can openly raise concerns and connect with a supportive community.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Users can create and read posts addressing safety concerns or incidents.",
+          "Access to helpline numbers for emergency support.",
+          "Includes blogs for awareness and safety tips."
+        ],
+        "development_stage": "Development Stage: Under construction with planned enhancements in user privacy and moderation.",
+        "image_src": "https://img.freepik.com/premium-vector/diverse-group-womens-hands-putting-together-teamwork-unity-concept_1323048-61227.jpg?semt=ais_hybrid",
+        "project_url": "https://github.com/Bhoomi3122/Sahayak-Full-Stack-Project"
+      },
+      {
+        "title": "University Management System (Web)",
+        "tech_stack": ["React", "LocalStorage"],
+        "status": "Completed",
+        "description": "This system simplifies university record management using React and LocalStorage, with an optional MongoDB integration for database support.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Manage student details including addition, searching, updating, and deletion.",
+          "Local storage ensures persistence even without a backend.",
+          "Ensures data integrity through unique identification for each student."
+        ],
+        "image_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXnoeUsi_VkeHREJrUmL6bmzMJxRwYdWED_tQbXy2aKLka_6kYPr9_5vaSYYCzv_WE1Lg&usqp=CAU",
+        "project_url": "https://github.com/Bhoomi3122/CampusRecords-Student-Records-Management-Platform---React-App"
+      },
+      {
+        "title": "Smart Home Automation",
+        "tech_stack": ["Arduino", "Arduino IDE", "IoT Sensors"],
+        "status": "Completed",
+        "description": "An IoT-based project that automates various home devices, improving convenience and energy efficiency.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Allows users to remotely control home devices using a smartphone.",
+          "Utilizes Arduino and IoT sensors for real-time monitoring and control.",
+          "Implements energy-saving measures through automated power adjustments."
+        ],
+        "image_src": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/08/automate-home-budget.jpg",
+        "project_url": "https://github.com/Bhoomi3122/Smart-home-automation-arduino-ide-"
+      },
+      {
+        "title": "TextUtils",
+        "tech_stack": ["React", "JavaScript", "CSS"],
+        "status": "Completed",
+        "description": "A versatile text utility app that allows users to perform various text manipulations easily.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Convert text to uppercase or lowercase, reverse text, and capitalize the first letter.",
+          "Provides a clean, interactive UI for better user engagement.",
+          "Enhances productivity by offering quick text-editing options."
+        ],
+        "image_src": "https://www.doozytools.com/wp-content/uploads/2022/10/text-tools-768x403.webp",
+        "project_url": "https://github.com/Bhoomi3122/Simple-Text-Tool-React-App-2.0"
+      },
+      {
+        "title": "Daily Goals Tracker",
+        "tech_stack": ["React", "Local Storage"],
+        "status": "Completed",
+        "description": "A simple and efficient Daily Goals Tracker app that allows users to add, complete, and delete tasks seamlessly.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Add new tasks to track daily goals easily.",
+          "Delete tasks once completed to keep the list organized.",
+          "Utilizes Local Storage for persistent task management across sessions."
+        ],
+        "image_src": "https://m.media-amazon.com/images/I/61BwqkdPshL.jpg",
+        "project_url": "https://github.com/Bhoomi3122/Daily-goals-tracker---React-App"
+      },
+      {
+        "title": "University Management System (Console)",
+        "tech_stack": ["C++"],
+        "status": "Completed",
+        "description": "A C++-based console application designed to manage university records with minimalistic yet effective functionality.",
+        "key_features_heading": "Key Features",
+        "key_features": [
+          "Add new students with unique roll numbers for data integrity.",
+          "Efficient search functionality with feedback for unmatched records.",
+          "Update student details and validate information such as phone numbers."
+        ],
+        "image_src": "https://www.rexocampus.com/images/university-icon/Educational-ecosystem.png",
+        "project_url": "https://github.com/Bhoomi3122/University-Management-System---unique-project"
+      }
+    ]
+  }
+  
