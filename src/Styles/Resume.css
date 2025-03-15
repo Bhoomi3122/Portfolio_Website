@@ -1,0 +1,24 @@
+#outer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30vh;
+    flex-direction: column;
+}
+#online-div,#download-div{
+    background-color: rgb(227, 227, 227);
+    width: 250px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+}
+#online-div a,#download-div a{
+    color: #060011;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.icon{
+    margin-right: 10px;
+}
